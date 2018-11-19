@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Snack Metro </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <img src="metrologo.png" alt="metrologo">
+
+        <div class="tab">
+            <button class="tablinks" onclick="openCategorie(event, 'Gerechten')">Gerechten</button>
+            <button class="tablinks" onclick="openCategorie(event, 'Dranken')">Dranken</button>
+            <button class="tablinks" onclick="openCategorie(event, 'Contact')">Contact</button>
+        </div>
+        <div id="Gerechten" class="tabcontent" style="display: contents;">
+            <b><table>
+                <th>Kebab</th>
+                <th>Prijs</th>
+                <tr>
+                    <td>Kebab dürüm</td>
+                    <td>€ 5,00</td>
+                </tr>
+                <tr>
+                    <td>Kebab klein</td>
+                    <td>€ 5,00</td>
+                </tr>
+                <tr>
+                    <td>Kebab klein met friet</td>
+                    <td>€ 5,50</td>
+                </tr>
+                <tr>
+                    <td>Kebab groot</td>
+                    <td>€ 7,00</td>
+                </tr>
+                <tr>
+                    <td>Kebab groot met friet</td>
+                    <td>€ 7,50</td>
+                </tr>
+                <tr>
+                    <td>Kebab klein schotel</td>
+                    <td>€ 7,00</td>
+                </tr>
+                <tr>
+                    <td>Kebab groot schotel</td>
+                    <td>€ 10,00</td>
+                </tr>
+            </table>
+            <table>
+                <th>Kip Kebab</th>
+                <th>Prijs</th>
+                <tr>
+                    <td>Kip dürüm</td>
+                    <td>€ 5,00</td>
+                </tr>
+                <tr>
+                    <td>Kip klein</td>
+                    <td>€ 5,00</td>
+                </tr>
+                <tr>
+                    <td>Kip klein met friet</td>
+                    <td>5,50</td>
+                </tr>
+                <tr>
+                    <td>Kip groot</td>
+                    <td>€ 7,00</td>
+                </tr>
+                <tr>
+                    <td>Kip groot met friet</td>
+                    <td>€ 7,50</td>
+                </tr>
+                <tr>
+                    <td>Kip klein schotel</td>
+                    <td>€ 7,00</td>
+                </tr>
+                <tr>
+                    <td>Kip groot schotel</td>
+                    <td>€ 10,00</td>
+                </tr>
+            </table>
+            <table>
+                <th>Mix Kebab</th>
+                <th>Prijs</th>
+                <tr>
+                    <td>Mix dürüm</td>
+                    <td>€ 5,00</td>
+                </tr>
+                <tr>
+                    <td>Mix klein</td>
+                    <td>€ 5,00</td>
+                </tr>
+                <tr>
+                    <td>Mix klein met friet</td>
+                    <td>€ 5,50</td>
+                </tr>
+                <tr>
+                    <td>Mix groot</td>
+                    <td>€ 7,00</td>
+                </tr>
+                <tr>
+                    <td>Mix groot met friet</td>
+                    <td>€ 7,50</td>
+                </tr>
+                <tr>
+                    <td>Mix klein schotel</td>
+                    <td>€ 7,00</td>
+                </tr>
+                <tr>
+                    <td>Mix groot schotel</td>
+                    <td>€ 10,00</td>
+                </tr>
+            </table>
+            <table>
+                <th>Vegetarisch</th>
+                <th>Prijs</th>
+                <tr>
+                    <td>Vegetarisch dürüm</td>
+                    <td>€ 3,00</td>
+                </tr>
+                <tr>
+                    <td>Vegetarisch klein</td>
+                    <td>€ 3,00</td>
+                </tr>
+                <tr>
+                    <td>Vegetarisch klein met friet</td>
+                    <td>€ 4,00</td>
+                </tr>
+                <tr>
+                    <td>Vegetarisch groot</td>
+                    <td>€ 5,00</td>
+                </tr>
+                <tr>
+                    <td>Vegetarisch groot met friet</td>
+                    <td>€ 6,00</td>
+                </tr>
+            </table>
+            <table>
+                <th>Snack</th>
+                <th>Prijs</th>
+                <tr>
+                    <td>Mexicano</td>
+                    <td>€ 4,50</td>
+                </tr>
+                <tr>
+                    <td>Bicky Burger</td>
+                    <td>€ 3,00</td>
+                </tr>
+                <tr>
+                    <td>Fish Burger</td>
+                    <td>€ 3,00</td>
+                </tr>
+                <tr>
+                    <td>Frikandel</td>
+                    <td>€ 2,00</td>
+                </tr>
+                <tr>
+                    <td>Fishstick</td>
+                    <td>€ 2,00</td>
+                </tr>
+                <tr>
+                    <td>Sito</td>
+                    <td>€ 2,00</td>
+                </tr>
+                <tr>
+                    <td>Boulet</td>
+                    <td>€ 2,00</td>
+                </tr>
+                <tr>
+                    <td>Kipfingers</td>
+                    <td>€ 2,00</td>
+                </tr>
+                <tr>
+                    <td>Kippenboutjes</td>
+                    <td>€ 2,50</td>
+                </tr>
+                <tr>
+                    <td>Kipcorn</td>
+                    <td>€ 1,50</td>
+                </tr>
+                <tr>
+                    <td>Loempia</td>
+                    <td>€ 1,50</td>
+                </tr>
+                <tr>
+                    <td>Lahmacun</td>
+                    <td>€ 2,00</td>
+                </tr>
+            </table>
+            <table>
+                <th>Hamburger</th>
+                <th>Prijs</th>
+                <tr>
+                    <td>Franse hamburger</td>
+                    <td>€ 4,50</td>
+                </tr>
+                <tr>
+                    <td>Hamburger schotel</td>
+                    <td>€ 7,00</td>
+                </tr>
+                <tr>
+                    <td>Köfte</td>
+                    <td>€ 5,00</td>
+                </tr>
+                <tr>
+                    <td>Köfte schotel</td>
+                    <td>€ 10,00</td>
+                </tr>
+            </table>
+            <table>
+                <th>Apart</th>
+                <th>Prijs</th>
+                <tr>
+                    <td>Friet Kebab</td>
+                    <td>€ 4,50</td>
+                </tr>
+                <tr>
+                    <td>Apart vlees</td>
+                    <td>€ 4,00</td>
+                </tr>
+                <tr>
+                    <td>Apart friet klein</td>
+                    <td>€ 2,00</td>
+                </tr>
+                <tr>
+                    <td>Apart friet groot</td>
+                    <td>€ 3,00</td>
+                </tr>
+                <tr>
+                    <td>Apart sauzen</td>
+                    <td>€ 0,50</td>
+                </tr>
+                <tr>
+                    <td>Extra vlees</td>
+                    <td>€ 1,00</td>
+                </tr>
+                <tr>
+                    <td>Extra saus</td>
+                    <td>€ 0,50</td>
+                </tr>
+                <tr>
+                    <td>Feta kaas</td>
+                    <td>€ 1,00</td>
+                </tr>
+                <tr>
+                    <td>Ananas</td>
+                    <td>€ 0,50</td>
+                </tr>
+            </table>
+            <table>
+                <th>Sauzen</th>
+                <th></th>
+                <tr>
+                    <td>Looksaus,Andalous,Cocktailsaus, Samurai,Mayonaise,Americain,Ketchup, Curry Ketchup,Curry Saus, Bicky Saus, Sambal.
+                        <br>Alle sauzen bij brood = Gratis
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="Dranken" class="tabcontent">
+            <table>
+                <th></th>
+                <th>Prijs</th>
+                <tr>
+                    <td>Coca Cola</td>
+                    <td>€ 1,50</td>
+                </tr>
+                <tr>
+                    <td>Coca Cola Light</td>
+                    <td>€ 1,50</td>
+                </tr>
+                <tr>
+                    <td>Coca Cola Zero</td>
+                    <td>€ 1,50</td>
+                </tr>
+                <tr>
+                    <td>Fanta</td>
+                    <td>€ 1,50</td>
+                </tr>
+                <tr>
+                    <td>Sprite</td>
+                    <td>€ 1,50</td>
+                </tr>
+                <tr>
+                    <td>Ice Tea</td>
+                    <td>€ 1,50</td>
+                </tr>
+                <tr>
+                    <td>Minute Maid</td>
+                    <td>€ 1,50</td>
+                </tr>
+                <tr>
+                    <td>Water</td>
+                    <td>€ 1,50</td>
+                </tr>
+                <tr>
+                    <td>Redbull</td>
+                    <td>€ 2,00</td>
+                </tr>
+                <tr>
+                    <td>Alle flessen</td>
+                    <td>€ 2,00</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="Contact" class="tabcontent">
+            <div class="split left">
+                <div class="centered">
+                    <h2>Telefoon: 0479/261 113</h2>
+                    <h2>Adres:Markt 16, 1785 MERCHTEM</h2>
+                    <br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d157.0682479343066!2d4.230401394952472!3d50.95900387076673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3eaca36a38591%3A0x2bcd9e0ab115d338!2sSnack+Metro!5e0!3m2!1snl!2sbe!4v1540837866162" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="split right">
+                <div class="centered">
+                    <h6>Openingsuren</h6>
+                    <br>
+                    <h5> Maandag: 17.00u tot 00.00u</h5>
+                    <br>
+                    <h5> Dinsdag: 17.00u tot 00.00u</h5>
+                    <br>
+                    <h5> Woensdag: 17.00u tot 00.00u</h5>
+                    <br>
+                    <h5> Donderdag: 17.00u tot 00.00u</h5>
+                    <br>
+                    <h5> Vrijdag: 17.00u tot 03.00u</h5>
+                    <br>
+                    <h5> Zaterdag: 17.00u tot 03.00u</h5>
+                    <br>
+                    <h5> Zondag: 17.00u tot 23.00u</h5>
+                    <br>
+                    <h5> ALLE FEESTDAGEN OPEN</h5>
+
+                </div>
+            </div>
+        </div>
+        </b>
+        <script>
+            function openCategorie(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+
+        </script>
+    </header>
+</body>
+
+</html>
